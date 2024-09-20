@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba1de1235c09c64fb738c0cc75c9c39, type: 3}
+  m_Name: Sensor
+  m_EditorClassIdentifier: 
+  allowedItemTypes:
+  - type: 05000000
+    optimalItems:
+    - {fileID: 11400000, guid: 2b9a2801874c10e47bdea54daf469cbb, type: 2}
+    notoptimalItems: []
+    badItems: []
+  messageError:
+    m_TableReference:
+      m_TableCollectionName: GUID:4e1d7395a9fd89d498f9cadd9f41b9bc
+    m_TableEntryReference:
+      m_KeyId: 856709193728
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  messageSuccess:
+    m_TableReference:
+      m_TableCollectionName: GUID:4e1d7395a9fd89d498f9cadd9f41b9bc
+    m_TableEntryReference:
+      m_KeyId: 430077173760
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  errorPoints: 1
+  references:
+    version: 2
+    RefIds: []

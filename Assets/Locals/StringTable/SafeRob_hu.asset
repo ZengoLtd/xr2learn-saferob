@@ -1,0 +1,419 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: SafeRob_hu
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: hu
+  m_SharedData: {fileID: 11400000, guid: 8626781668f284c4ab3185f95f461cac, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 380525457408
+    m_Localized: Hiba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400448
+    m_Localized: Siker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400449
+    m_Localized: "Az \xE9rz\xE9kel\u0151 sikeresen cser\xE9lve"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400450
+    m_Localized: "Nincs n\xE1lad megfelel\u0151 \xE9rz\xE9kel\u0151"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400451
+    m_Localized: Az invertert nem szabad lekapcsolni!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400452
+    m_Localized: "Hagyd el a robot z\xF3n\xE1j\xE1t!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400453
+    m_Localized: "Kil\xE9pt\xE9l a robot z\xF3n\xE1j\xE1b\xF3l. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400454
+    m_Localized: "Felszerel\xE9s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400455
+    m_Localized: "Ipari v\xE9d\u0151sisak"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400456
+    m_Localized: "Inverter \xE1ll\xEDt\xE1sa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400457
+    m_Localized: "Vegy\xE9l egy m\xE9ly leveg\u0151t, minden rendben lesz. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400458
+    m_Localized: "Csukd be a szemed egy pillanatra \xE9s lazulj el!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400459
+    m_Localized: "Egyszerre csak egy dologra koncentr\xE1lj. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400460
+    m_Localized: "J\xF3l haladsz, csak \xEDgy tov\xE1bb!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400461
+    m_Localized: "Ne feledd, ez egy biztons\xE1gos helyzet. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400462
+    m_Localized: "Eleven\xEDtsd fel a l\xE9p\xE9seket a fejedben."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400463
+    m_Localized: "\xC1llj meg egy pillanatra. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400464
+    m_Localized: "Nincs ok a siets\xE9gre. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400465
+    m_Localized: "Vegy\xE9l egy m\xE9ly leveg\u0151t, te ir\xE1ny\xEDtasz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400466
+    m_Localized: "\xC1llj meg ha sz\xFCks\xE9ges, nyugodj meg \xE9s \xF6sszpontos\xEDts. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400467
+    m_Localized: "Szorongsz a magass\xE1g miatt? Ez teljesen norm\xE1lis, biztons\xE1gban
+      vagy."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400468
+    m_Localized: "Maradj f\xF3kusz\xE1lt, minden id\u0151 a rendelkez\xE9sedre \xE1ll. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400469
+    m_Localized: "Id\u0151"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400470
+    m_Localized: "Teleport\xE1l\xE1sok"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400472
+    m_Localized: "Adja meg a 4-jegy\u0171 sz\xE1mot"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400473
+    m_Localized: "Csatlakoz\xE1s panel"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400474
+    m_Localized: "Egyr\xE9sztvev\u0151s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400475
+    m_Localized: "T\xF6bbr\xE9sztvev\u0151s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400476
+    m_Localized: "Folytat\xE1s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400477
+    m_Localized: "Szenzor poz\xEDci\xF3ja helyre\xE1ll\xEDtva"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400478
+    m_Localized: "F\xE9nysoromp\xF3 poz\xEDci\xF3ja helyrer\xE1ll\xEDtva"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400479
+    m_Localized: "Hiba konfirm\xE1l\xE1sa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400480
+    m_Localized: "Karbantart\xE1si m\xF3d"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400481
+    m_Localized: "Szenor cser\xE9je"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656960
+    m_Localized: "Mechanikai v\xE9d\u0151szem\xFCvegy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656961
+    m_Localized: "Ipari v\xE9d\u0151sisak"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656962
+    m_Localized: "Biztons\xE1gi l\xE1bbeli"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656963
+    m_Localized: "Mechanikai v\xE9d\u0151keszty\u0171"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656964
+    m_Localized: MC Szenzor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656965
+    m_Localized: "Befejez\xE9s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656966
+    m_Localized: "Menj a szekr\xE9nyekhez \xE9s vedd fel a felszerel\xE9st a falon
+      l\xE1that\xF3 t\xE1bl\xE1k alapj\xE1n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656967
+    m_Localized: "Itt tudod felvenni a sz\xFCks\xE9ges alkatr\xE9sz(eke)t a jav\xEDt\xE1shoz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656968
+    m_Localized: "Vedd fel a megfelel\u0151 biztons\xE1gi felszerel\xE9st miel\u0151tt
+      felfedezed a rakt\xE1rat!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656969
+    m_Localized: "Menj a CNC g\xE9phez \xE9s t\xE1rd fel a hib\xE1t!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656970
+    m_Localized: "Konfirm\xE1ld a hib\xE1t \xE9s kapcsold a robotot karbantart\xE1si
+      m\xF3dba."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656971
+    m_Localized: "G\xE9p\xE9sz"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656972
+    m_Localized: "Villanyszerel\u0151"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656973
+    m_Localized: "1. Szitu\xE1ci\xF3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656974
+    m_Localized: "2. Szitu\xE1ci\xF3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656975
+    m_Localized: "\xDAtmutat\xF3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656976
+    m_Localized: "Nincs \xFAtmutat\xF3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388119678976
+    m_Localized: "Gyakorl\xE1s m\xF3d"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427712
+    m_Localized: "Vizsga m\xF3d"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427713
+    m_Localized: "L\xE9trehoz\xE1s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427714
+    m_Localized: "Csatlakoz\xE1s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427715
+    m_Localized: "V\xE1laszd ki hogyan szeretn\xE9d haszn\xE1lni az alkalmaz\xE1st."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427716
+    m_Localized: "A csatlakoz\xE1shoz sz\xFCks\xE9ges pin k\xF3d akt\xEDv"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427717
+    m_Localized: "Egy felhaszn\xE1l\xF3 sikeresen csatlakozott hozz\xE1d."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427718
+    m_Localized: "A v\xE9geredm\xE9nyed"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427719
+    m_Localized: A stressz-szintjeid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1460428036485120
+    m_Localized: "H\xE1t ezt nem kellett volna tenned"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2327648350445568
+    m_Localized: Vissza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2327685285486592
+    m_Localized: "K\xF6vetkez\u0151"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2327718068166656
+    m_Localized: "Nem tal\xE1lhat\xF3 a pin-hez tartoz\xF3 szoba."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1814444843008
+    m_Localized: "Sikeresen csatlakozott a szob\xE1hoz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2744661778432
+    m_Localized: "Adja meg az IP c\xEDmet \xE9s csatlakozzon."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3070534033408
+    m_Localized: "Ilyen IP alatt nem tal\xE1ltunk eszk\xF6zt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3097666985984
+    m_Localized: "Eszk\xF6z csatlakozva."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4310986858496
+    m_Localized: "Bel\xE9p\xE9s a rakt\xE1rba."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4395510472704
+    m_Localized: "Rakt\xE1r elhagy\xE1sa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4998735273984
+    m_Localized: "\xDCdv\xF6z\xF6llek a SafeRob 1-es szitu\xE1ci\xF3j\xE1ban!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5160224366592
+    m_Localized: "\xDCdv\xF6z\xF6llek a SafeRob 2-es szitu\xE1ci\xF3j\xE1ban!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5212086935552
+    m_Localized: "Ebben a szitu\xE1ci\xF3ban a feladatod, hogy megtal\xE1ld mi okozza
+      a fut\xF3szalag hib\xE1s m\u0171k\xF6d\xE9s\xE9t. Ezt k\xF6vet\u0151en v\xE9gezd
+      el a jav\xEDt\xE1sokat a szerepk\xF6r\xF6dnek megfel\u0151en."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5258723401728
+    m_Localized: "Ebben a szitu\xE1ci\xF3ban a feladatod, hogy a biztons\xE1gi kamer\xE1val
+      felvett vide\xF3 alapj\xE1n meghat\xE1rozd a hib\xE1kat. Lehet, hogy t\xF6bb
+      eszk\xF6z is meghib\xE1sodott, amit jav\xEDtanod kell."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5832038621184
+    m_Localized: "Szitu\xE1ci\xF3 befejez\xE9se"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11484551127040
+    m_Localized: "Sz\xFCks\xE9ges v\xE9d\u0151eszk\xF6z\xF6k felv\xE9tele a rakt\xE1rban"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11910746939392
+    m_Localized: "Teleporterek helyes haszn\xE1lata"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12048710180864
+    m_Localized: "Nem kapcsolta le a f\u0151kapcsol\xF3t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12201353486336
+    m_Localized: "Szenzor kicser\xE9l\xE9se"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12286682406912
+    m_Localized: "Nem l\xE9pett be vesz\xE9lyes ter\xFCletre"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12527007637504
+    m_Localized: "Karbantart\xF3 \xFCzemm\xF3d bekapcsolva"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12663976828928
+    m_Localized: "Karbantart\xF3 \xFCzemm\xF3d kikapcsolva"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14030703370240
+    m_Localized: "Szenzor kicser\xE9l\xE9se szenzor n\xE9lk\xFCl"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107040870871040
+    m_Localized: "Stresszdetekt\xE1l\xE1s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107040870871041
+    m_Localized: "Nincs stresszdetekt\xE1l\xE1s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432098034167808
+    m_Localized: "Kihagy\xE1s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432140312752128
+    m_Localized: "Kezd\xE9s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432174135619584
+    m_Localized: "\xDCdv\xF6zl\xFCnk a SafeRob-ban!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432292951863296
+    m_Localized: "Miel\u0151tt kiv\xE1lasztan\xE1d a szitu\xE1ci\xF3t, kattints a
+      \"Kezd\xE9s\" gombra \xE9s tekintsd meg az \xFAtmutat\xF3t a k\xF6rnyezetben
+      val\xF3 navig\xE1ci\xF3hoz.\nAz \xFAtmutat\xF3 kihagy\xE1s\xE1hoz kattints
+      a \"Kihagy\xE1s\" gombra. \nA szitu\xE1ci\xF3t, szerepk\xF6rt, stresszdetekt\xE1l\xE1st
+      a f\u0151men\xFCb\u0151l tudod kiv\xE1lasztani."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 528548827082752
+    m_Localized: "Tal\xE1ld meg a k\xE9t szenzort amelyek nem j\xF3 sz\xF6gben \xE1llnak!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834487463555072
+    m_Localized: "Ind\xEDt\xE1s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 895128052281344
+    m_Localized: "A szerepk\xF6r\xF6d:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 895128010338304
+    m_Localized: "\xDCgyelj a k\xF6rnyezetedre \xE9s ne felejtsd el megtenni a sz\xFCks\xE9ges
+      biztons\xE1gi \xF3vint\xE9zked\xE9seket. Ha v\xE9gezt\xE9l a feladataiddal,
+      menj a kapuhoz \xE9s nyomd meg a \"SZITU\xC1CI\xD3 BEFEJEZ\xC9SE\" gombot."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 895128043892736
+    m_Localized: "\xDCgyelj a k\xF6rnyezetedre \xE9s ne felejtsd el megtenni a sz\xFCks\xE9ges
+      biztons\xE1gi \xF3vint\xE9zked\xE9seket. Ha v\xE9gezt\xE9l a feladataiddal,
+      menj a kapuhoz \xE9s nyomd meg a \"SZITU\xC1CI\xD3 BEFEJEZ\xC9SE\" gombot."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1320868195446784
+    m_Localized: "Csatlakoz\xE1s stressz-\xE9rz\xE9kel\u0151 eszk\xF6zh\xF6z"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

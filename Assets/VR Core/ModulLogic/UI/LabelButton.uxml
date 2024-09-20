@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/VR%20Core/ModulLogic/UI/Styles/main.uss?fileID=7433441132597879392&amp;guid=7e628f5b3d76a9941a63d9ab83c8e81d&amp;type=3#main" />
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row; align-self: auto; align-items: center; justify-content: flex-start; margin-top: 4px; margin-right: 4px; margin-bottom: 4px; margin-left: 4px;">
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="button" tooltip="Remove Event" class="deleteButton" style="margin-bottom: 2px; margin-top: 2px;" />
+        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="label" style="justify-content: center; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-left: 6px;" />
+    </ui:VisualElement>
+</ui:UXML>

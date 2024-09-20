@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84077af632771b846b5a36d46611164a, type: 3}
+  m_Name: "Y energiaelnyel\u0151s k\xF6t\xE9l"
+  m_EditorClassIdentifier: 
+  item:
+    type: 6
+    name:
+      m_TableReference:
+        m_TableCollectionName: GUID:dd3dd6715135ac341904aecbf872027e
+      m_TableEntryReference:
+        m_KeyId: 3080918634496
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    description:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  prefab: {fileID: 3939259224034683461, guid: 7144b7f04556728439f3ff5f4bffdf36, type: 3}
+  references:
+    version: 2
+    RefIds: []

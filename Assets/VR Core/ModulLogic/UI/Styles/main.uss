@@ -1,0 +1,305 @@
+.deleteButton {
+    align-self: flex-end;
+    background-image: url("project://database/Assets/VR%20Core/ModulLogic/UI/Sprites/delete.png?fileID=21300000&guid=df872e9fc9e7c214b847bd4ebd684a9d&type=3#delete");
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(197, 197, 197, 0.47);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    flex-grow: 0;
+    flex-direction: column;
+    width: 20px;
+    height: 20px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 6px;
+    margin-bottom: 7px;
+}
+
+.active-tab {
+    background-color: rgb(76, 175, 80);
+    color: white;
+}
+
+.deleteButton:hover {
+    background-image: url("project://database/Assets/VR%20Core/ModulLogic/UI/Sprites/delete.png?fileID=21300000&guid=df872e9fc9e7c214b847bd4ebd684a9d&type=3#delete");
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgb(84, 84, 84);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    flex-grow: 0;
+    flex-direction: column;
+    width: 20px;
+    height: 20px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 6px;
+    margin-bottom: 7px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.blockButton {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    align-items: center;
+    background-color: rgba(24, 24, 24, 0.93);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgb(230, 230, 230);
+    -unity-font-definition: initial;
+    -unity-font: url("project://database/Assets/Fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-Light.ttf?fileID=12800000&guid=5772854708c904d228373c751d54f55b&type=3#OpenSans_Condensed-Light");
+    width: 171px;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+.blockButton:hover {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    align-items: center;
+    background-color: rgba(24, 24, 24, 0.93);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgb(230, 230, 230);
+    -unity-font-definition: initial;
+    -unity-font: url("project://database/Assets/Fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-Light.ttf?fileID=12800000&guid=5772854708c904d228373c751d54f55b&type=3#OpenSans_Condensed-Light");
+    width: 171px;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 17px;
+    scale: 1.05 1.05;
+    transition-property: scale;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out-circ;
+}
+
+.boldLabel {
+    margin-right: 4px;
+    margin-bottom: 2px;
+    margin-top: 22px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    -unity-font-style: bold;
+}
+
+.addButton {
+    background-image: url("project://database/Assets/VR%20Core/ModulLogic/UI/Sprites/add_diamond.png?fileID=21300000&guid=7c3ed9b635e73314da4fd267f0c341cc&type=3#add_diamond");
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    width: 25px;
+    height: 25px;
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+.tabbutton {
+    flex-grow: 1;
+    width: 30%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 0;
+    margin-right: 2px;
+    margin-bottom: 0;
+    margin-left: 2px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgb(38, 38, 38);
+}
+
+.tabbutton:hover {
+    flex-grow: 1;
+    width: 30%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 0;
+    margin-right: 2px;
+    margin-bottom: 0;
+    margin-left: 2px;
+    border-left-color: rgb(113, 113, 113);
+    border-right-color: rgb(113, 113, 113);
+    border-top-color: rgb(113, 113, 113);
+    border-bottom-color: rgb(113, 113, 113);
+    background-color: rgb(38, 38, 38);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 0;
+    border-left-width: 1px;
+}
+
+.standardlabel {
+    -unity-font-definition: initial;
+    -unity-font: url("project://database/Assets/Fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-Medium.ttf?fileID=12800000&guid=9efd5a63d8080495a96fc57149e66e19&type=3#OpenSans_Condensed-Medium");
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-size: 13px;
+    letter-spacing: 4px;
+}
+
+.addEventButton {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    width: 16%;
+    align-self: center;
+    height: 35px;
+    background-color: rgb(122, 122, 122);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.addEventButton:hover {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    width: 16%;
+    align-self: center;
+    height: 35px;
+    background-color: rgb(91, 91, 91);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.foldoutButton {
+    justify-content: center;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-color: rgba(88, 88, 88, 0.39);
+}
+
+.foldoutButton:hover {
+    justify-content: center;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-color: rgba(63, 63, 63, 0.85);
+}
+
+.foldoutButton:focus {
+    justify-content: center;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-color: rgba(165, 58, 62, 0.85);
+}
+
+.lockButton {
+    flex-shrink: 0;
+    flex-grow: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 31px;
+    height: 31px;
+    margin-left: 9px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(81, 81, 81);
+    background-image: url("project://database/Assets/VR%20Core/ModulLogic/UI/Sprites/lock.png?fileID=21300000&guid=912d70d56eafd4840a95d2f72cd97a90&type=3#lock");
+}
+
+.lockButtonActive {
+    flex-shrink: 0;
+    flex-grow: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 31px;
+    height: 31px;
+    margin-left: 9px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(113, 113, 113);
+    background-image: url("project://database/Assets/VR%20Core/ModulLogic/UI/Sprites/lock_open_right.png?fileID=21300000&guid=12e4a2bdacaba784c92b1c538fb68b90&type=3#lock_open_right");
+}

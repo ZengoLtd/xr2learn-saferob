@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba1de1235c09c64fb738c0cc75c9c39, type: 3}
+  m_Name: Wrench
+  m_EditorClassIdentifier: 
+  allowedItemTypes:
+  - type: 09000000
+    optimalItems:
+    - {fileID: 11400000, guid: 6123a83971e86fa4d934f5167d2da6a5, type: 2}
+    notoptimalItems: []
+    badItems:
+    - {fileID: 11400000, guid: c5a9f649381512640a0fe3b12884473b, type: 2}
+  messageError: Equipment missing for operation
+  messageSuccess: Correct item used

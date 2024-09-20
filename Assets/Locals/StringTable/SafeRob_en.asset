@@ -1,0 +1,415 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: SafeRob_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 8626781668f284c4ab3185f95f461cac, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 380525457408
+    m_Localized: Error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400448
+    m_Localized: Success
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400449
+    m_Localized: Sensor successfully replaced
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400450
+    m_Localized: You do not have the right sensor in your inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400451
+    m_Localized: The inverter should not be turned off!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400452
+    m_Localized: Leave the robot zone!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400453
+    m_Localized: You have left the robot zone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400454
+    m_Localized: Equipment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400455
+    m_Localized: Industrial protective helmet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400456
+    m_Localized: Inverter switch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400457
+    m_Localized: Take a deep breath; everything will be okay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400458
+    m_Localized: Close your eyes for the moment and relax!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400459
+    m_Localized: 'Focus on one thing at a time. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400460
+    m_Localized: "You\u2019re doing great; keep going!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400461
+    m_Localized: 'Remember, this is a safe situation. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400462
+    m_Localized: Recall the steps in your head.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400463
+    m_Localized: 'Take a moment to pause. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400464
+    m_Localized: No need to hurry.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400465
+    m_Localized: Take a deep breath, you're in control.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400466
+    m_Localized: Pause if needed. Ground yourself and stay calm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400467
+    m_Localized: Feeling height anxiety? It's normal. You're safe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400468
+    m_Localized: "Stay focused, you\u2019ve got all the time you need. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400469
+    m_Localized: Time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400470
+    m_Localized: Teleports
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400472
+    m_Localized: Enter the 4-digit number
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400473
+    m_Localized: Connection panel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400474
+    m_Localized: Solo player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400475
+    m_Localized: Multiplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400476
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400477
+    m_Localized: Sensor position fixed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400478
+    m_Localized: Light barrier position fixed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400479
+    m_Localized: Confirm error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400480
+    m_Localized: Maintenance mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400481
+    m_Localized: Change sensor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656960
+    m_Localized: Safety glasses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656961
+    m_Localized: Safety helmet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656962
+    m_Localized: Safety shoes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656963
+    m_Localized: Safety gloves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656964
+    m_Localized: MC Sensor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656965
+    m_Localized: Finish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656966
+    m_Localized: Go to the lockers and pick up the equipment based on the signs on
+      the wall.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656967
+    m_Localized: You can grab the necessary part(s) for repair here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656968
+    m_Localized: Before exploring the warehouse, put on safety gear first!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656969
+    m_Localized: Go to the CNC machine and asses the error!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656970
+    m_Localized: Confirm the error and put the robot into maintenance mode.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656971
+    m_Localized: Mechanical engineer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656972
+    m_Localized: Electrical engineer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656973
+    m_Localized: 1st scenario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656974
+    m_Localized: 2nd scenario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656975
+    m_Localized: Get guide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656976
+    m_Localized: No guide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388119678976
+    m_Localized: Practice mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427712
+    m_Localized: Exam mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427713
+    m_Localized: Host
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427714
+    m_Localized: Join
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427715
+    m_Localized: Choose how you want to use the application.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427716
+    m_Localized: Your host pin is ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427717
+    m_Localized: One user has successfully joined your session.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427718
+    m_Localized: Your final result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427719
+    m_Localized: Your stress levels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1460428036485120
+    m_Localized: You should have not done that
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2327648350445568
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2327685285486592
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2327718068166656
+    m_Localized: No room with this PIN.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1814444843008
+    m_Localized: Succesfully connected to the room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2744661778432
+    m_Localized: Enter IP and connect to device
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3070534033408
+    m_Localized: No device found with this IP.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3097666985984
+    m_Localized: Device found.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4310986858496
+    m_Localized: Enter warehouse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4395510472704
+    m_Localized: Exit warehouse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4998735273984
+    m_Localized: Welcome, this is SafeRob Scenario 1!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5160224366592
+    m_Localized: Welcome, this is SafeRob Scenario 2!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5212086935552
+    m_Localized: In this scenario your task is to find what causes the malfunction
+      of the conveyor belt. After that you need to make the correct repairs based
+      on your role.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5258723401728
+    m_Localized: In this scenario your task is to watch the CCTV recording and try
+      to find out what is the problem based on the recording. There might be multiple
+      things that you have to repair.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5832038621184
+    m_Localized: Finish scenario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11484551127040
+    m_Localized: Putting on the necessary protective equipment in the warehouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11910746939392
+    m_Localized: Correct use of teleports
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12048710180864
+    m_Localized: Main switch was not turned off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12201353486336
+    m_Localized: Sensor replaced
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12286682406912
+    m_Localized: Did not enter dangerous area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12527007637504
+    m_Localized: Maintenance mode on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12663976828928
+    m_Localized: Maintenance mode off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14030703370240
+    m_Localized: Sensor changed with no sensor equipped
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107040870871040
+    m_Localized: Stress detection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107040870871041
+    m_Localized: No stress detection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432098034167808
+    m_Localized: Skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432140312752128
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432174135619584
+    m_Localized: Welcome to SafeRob!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432292951863296
+    m_Localized: "Before selecting the Scenario, click on the Start button to watch
+      the tutorials on how to move in your environment. \nTo skip the tutorials,
+      click on the Skip button.\nYou can select the scenario, role, and stress detection
+      from the main UI."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 528548827082752
+    m_Localized: 'Find the two  sensors that are slanted! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834487463555072
+    m_Localized: Start session
+    m_Metadata:
+      m_Items: []
+  - m_Id: 895128010338304
+    m_Localized: 'Pay attention to your surroundings and do not forget to make the
+      necessary safety precautions. After you finished, go to the gate and press
+      the "FINISH SCENARIO" button. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 895128052281344
+    m_Localized: 'Your role is:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 895128043892736
+    m_Localized: Pay attention to your surroundings and do not forget to make the
+      necessary safety precautions. After you finished, go to the gate and press
+      the "FINISH SCENARIO" button.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1320868195446784
+    m_Localized: Connect to stress detection device
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

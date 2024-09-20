@@ -1,0 +1,409 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: SafeRob Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: SafeRob
+  m_TableCollectionNameGuidString: 8626781668f284c4ab3185f95f461cac
+  m_Entries:
+  - m_Id: 380525457408
+    m_Key: error_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400448
+    m_Key: success_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400449
+    m_Key: sensor_success
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400450
+    m_Key: sensor_error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400451
+    m_Key: inverter_error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400452
+    m_Key: person_in_robot_zone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400453
+    m_Key: person_left_robot_zone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400454
+    m_Key: equipment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400455
+    m_Key: industrial_helmet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400456
+    m_Key: inverter_off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400457
+    m_Key: reassuring_message_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400458
+    m_Key: reassuring_message_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400459
+    m_Key: reassuring_message_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400460
+    m_Key: reassuring_message_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400461
+    m_Key: reassuring_message_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400462
+    m_Key: reassuring_message_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400463
+    m_Key: reassuring_message_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400464
+    m_Key: reassuring_message_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400465
+    m_Key: reassuring_message_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400466
+    m_Key: reassuring_message_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400467
+    m_Key: reassuring_message_11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400468
+    m_Key: reassuring_message_12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400469
+    m_Key: time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400470
+    m_Key: teleports
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400472
+    m_Key: enter_4_digit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400473
+    m_Key: connection_panel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400474
+    m_Key: single_player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400475
+    m_Key: multi_player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400476
+    m_Key: continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400477
+    m_Key: sensor_fix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400478
+    m_Key: lightgate_fix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400479
+    m_Key: robot_error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400480
+    m_Key: robot_maintenance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380567400481
+    m_Key: sensor_change
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656960
+    m_Key: safety_glasses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656961
+    m_Key: safety_helmet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656962
+    m_Key: safety_shoes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656963
+    m_Key: safety_gloves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656964
+    m_Key: sensor_mc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656965
+    m_Key: finish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656966
+    m_Key: guided_locker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656967
+    m_Key: guided_workbench
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656968
+    m_Key: guided_start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656969
+    m_Key: guided_locker2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656970
+    m_Key: guided_CNC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656971
+    m_Key: mechanical_eng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656972
+    m_Key: electrical_eng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656973
+    m_Key: 1st_scenario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656974
+    m_Key: 2nd_scenario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656975
+    m_Key: guided
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488417839656976
+    m_Key: noguided
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388119678976
+    m_Key: exam_mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427712
+    m_Key: practice_mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427713
+    m_Key: host
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427714
+    m_Key: join
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427715
+    m_Key: select_how_to_use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427716
+    m_Key: host_pin_ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427717
+    m_Key: user_joined
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427718
+    m_Key: your_final_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669388157427719
+    m_Key: your_stress_levels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1460428036485120
+    m_Key: bad_teleport
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2327648350445568
+    m_Key: back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2327685285486592
+    m_Key: next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2327718068166656
+    m_Key: no_room_found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1814444843008
+    m_Key: room_found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2744661778432
+    m_Key: enter_ip_and_connect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3070534033408
+    m_Key: no_device_found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3097666985984
+    m_Key: device_found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4310986858496
+    m_Key: enter_storage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4395510472704
+    m_Key: exit_storage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4998735273984
+    m_Key: scenario1_welcome_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5160224366592
+    m_Key: scenario2_welcome_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5212086935552
+    m_Key: scenario1_objective_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 895128010338304
+    m_Key: scenario1_objective_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5258723401728
+    m_Key: scenario2_objective_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 895128043892736
+    m_Key: scenario2_objective_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5832038621184
+    m_Key: finish_scenario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11484551127040
+    m_Key: task_picked_up_safety
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11910746939392
+    m_Key: task_correct_teleporters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12048710180864
+    m_Key: task_inverter_not_turned_off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12201353486336
+    m_Key: task_sensor_replaced
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12286682406912
+    m_Key: task_danger_zone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12527007637504
+    m_Key: task_mainentance_enabled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12663976828928
+    m_Key: task_maintenance_disabled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14030703370240
+    m_Key: task_sensor_change_without_sensor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107040870871040
+    m_Key: stress_detect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107040870871041
+    m_Key: no_stress_detect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432098034167808
+    m_Key: skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432140312752128
+    m_Key: start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432174135619584
+    m_Key: welcome_to_saferob
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432292951863296
+    m_Key: welcome_tutorial_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 528548827082752
+    m_Key: guided_s2_sensors
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834487463555072
+    m_Key: start_session
+    m_Metadata:
+      m_Items: []
+  - m_Id: 895128052281344
+    m_Key: your_role_is
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1320868195446784
+    m_Key: connect_stress_device
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5246270445645987857
+  references:
+    version: 2
+    RefIds:
+    - rid: 5246270445645987857
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1725847350532

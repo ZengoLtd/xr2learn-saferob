@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/VR%20Core/ModulLogic/UI/Styles/main.uss?fileID=7433441132597879392&amp;guid=7e628f5b3d76a9941a63d9ab83c8e81d&amp;type=3#main" />
+    <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FIXBUTTON" />
+    <ui:VisualElement name="tabs" style="flex-grow: 0; flex-direction: row; height: 37px; margin-top: 12px;">
+        <ui:Button text="Bindings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bindingsButton" class="tabbutton" />
+        <ui:Button text="Logic" parse-escape-sequences="true" display-tooltip-when-elided="true" name="logicTabButton" class="tabbutton" />
+        <ui:Button text="Listeners" parse-escape-sequences="true" display-tooltip-when-elided="true" name="listenersTabButton" class="tabbutton" />
+    </ui:VisualElement>
+    <ui:VisualElement name="tabContent" style="flex-grow: 1; background-color: rgb(38, 38, 38); margin-right: 2px; margin-left: 2px; margin-top: -2px; padding-right: 10px; padding-left: 10px; padding-top: 16px;">
+        <ui:VisualElement name="bindingsContent" style="flex-grow: 1;">
+            <ui:VisualElement name="blockLogic" style="flex-grow: 1;" />
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1;">
+                <ui:VisualElement style="flex-grow: 1; align-items: auto; flex-direction: row; justify-content: flex-start;">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddGameObjectButton" class="deleteButton" style="background-image: url(&quot;project://database/Assets/VR%20Core/ModulLogic/UI/Sprites/add_diamond.png?fileID=21300000&amp;guid=7c3ed9b635e73314da4fd267f0c341cc&amp;type=3#add_diamond&quot;); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; width: 25px; height: 25px; -unity-background-scale-mode: scale-and-crop;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="logicContent" style="flex-grow: 1;">
+            <ui:IMGUIContainer name="default" />
+            <ui:ListView name="conditionalLogic" horizontal-scrolling="true" reorderable="true" header-title="Conditions" reorder-mode="Animated" virtualization-method="DynamicHeight" />
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1;">
+                <ui:VisualElement style="flex-grow: 1; align-items: auto; flex-direction: row; justify-content: flex-start;">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddLogicButton" class="deleteButton" style="background-image: url(&quot;project://database/Assets/VR%20Core/ModulLogic/UI/Sprites/add_diamond.png?fileID=21300000&amp;guid=7c3ed9b635e73314da4fd267f0c341cc&amp;type=3#add_diamond&quot;); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; width: 25px; height: 25px; -unity-background-scale-mode: scale-and-crop; display: none;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="listenersContent" style="flex-grow: 1;">
+            <ui:VisualElement style="flex-grow: 1;">
+                <uie:ObjectField label="Object Field" focusable="true" style="visibility: hidden; overflow: hidden; align-items: flex-start; align-self: auto; height: auto; -unity-background-image-tint-color: rgb(255, 255, 255); justify-content: flex-start; flex-basis: auto; flex-direction: row; flex-wrap: nowrap; display: flex;" />
+                <ui:Label tabindex="-1" text="Events" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                <ui:ListView name="eventlistView" />
+                <ui:Label tabindex="-1" text="States" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                <ui:ListView name="statelistView" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
